@@ -1,0 +1,21 @@
+.spellbook {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spellbookHeader {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.spellbookClickable {
+  width: 100%;
+  height: 500px;
+  background: url('/images/bluspellbook.png') center 50%/50% no-repeat;
+}
