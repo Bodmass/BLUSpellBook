@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
 .spellbook {
   margin-top: 4rem;
   display: flex;
@@ -14,8 +16,64 @@
   width: 100%;
 }
 
+.spellButton {
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px #000000;
+}
+
 .spellbookClickable {
-  width: 100%;
+  display: flex;
+  width: 800px;
   height: 500px;
-  background: url('/images/bluspellbook.png') center 50%/50% no-repeat;
+  background: url('/images/bluspellbook.png') center 50%/100% no-repeat;
+}
+
+.pageLeft {
+  padding: 5rem 0 6rem 5rem;
+  width: 400px;
+}
+.spell {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  padding: 0.9rem 0;
+}
+
+.spellList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pageNumbers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.pageNumber,
+.pageNumberActive {
+  background: none;
+  color: white;
+  border-radius: 8px;
+  width: 2rem;
+  margin: 0 2px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.pageNumberActive {
+  border: 1px solid #5d5d00;
+  box-shadow: inset 0 0 5px #f2ff02;
+}
+
+.pageNumber:hover {
+  border: 1px solid #414141;
+  box-shadow: inset 0 0 10px #cdcdcd;
+}
+
+.spellButton {
+  min-width: 42px;
+  height: 42px;
+  background-color: rgb(28, 28, 28);
 }
