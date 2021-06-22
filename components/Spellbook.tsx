@@ -5,41 +5,100 @@ import data from '../public/data/spells.json'
 const SPELLS = data.spell
 const SPELLSPERPAGE = 16
 
-function Spell({ id, icon, aquired }) {
+function Spell({ id, icon, aquired, setFocusedSpell, allSpells }) {
   return (
     <div className={styles.spell}>
       <input type="checkbox" id={id} value={aquired} />
-      <div className={styles.spellButton} style={{ background: `url('../images/icons/${icon}.png')` }} />
+      <div
+        className={styles.spellButton}
+        role="button"
+        tabIndex={id}
+        aria-label={allSpells[id].name}
+        onClick={() => {
+          setFocusedSpell(allSpells[id - 1])
+        }}
+        onKeyPress={() => {
+          setFocusedSpell(allSpells[id - 1])
+        }}
+        style={{ background: `url('../images/icons/${icon}.png')` }}
+      />
     </div>
   )
 }
 
-function LeftPage({ page, setPage, pageSpells, allSpells }) {
+function LeftPage({ page, setPage, pageSpells, allSpells, focusedSpell, setFocusedSpell }) {
   const maxPage = Math.ceil(allSpells.length / SPELLSPERPAGE)
 
   return (
-    <div className={styles.pageLeft}>
-      <div className={styles.pageNumbers}>
-        {Array.from(Array(maxPage), (e, i) => (
-          <div
-            role="button"
-            onKeyPress={() => {
-              setPage(i + 1)
-            }}
-            className={i + 1 === page ? styles.pageNumberActive : styles.pageNumber}
-            tabIndex={i}
-            onClick={() => {
-              setPage(i + 1)
-            }}
-          >
-            {i + 1}
-          </div>
-        ))}
+    <div className={styles.pages}>
+      <div className={styles.pageLeft}>
+        <div className={styles.pageNumbers}>
+          {Array.from(Array(maxPage), (e, i) => (
+            <div
+              key={i}
+              role="button"
+              onKeyPress={() => {
+                setPage(i + 1)
+              }}
+              className={i + 1 === page ? styles.pageNumberActive : styles.pageNumber}
+              tabIndex={i}
+              onClick={() => {
+                setPage(i + 1)
+              }}
+            >
+              {i + 1}
+            </div>
+          ))}
+        </div>
+        <div className={styles.spellList}>
+          {pageSpells.map((e) => (
+            <Spell
+              key={e.id}
+              id={e.id}
+              icon={e.icon}
+              aquired={false}
+              setFocusedSpell={setFocusedSpell}
+              allSpells={allSpells}
+            />
+          ))}
+        </div>
       </div>
-      <div className={styles.spellList}>
-        {pageSpells.map((e) => (
-          <Spell id={e.id} icon={e.icon} aquired={false} />
-        ))}
+      <div className={styles.pageRight}>
+        <span>{focusedSpell.name}</span>
+        <div className={styles.focusedSpellData}>
+          <div
+            className={styles.focusedSpellIcon}
+            style={{ background: `url('../images/icons/${focusedSpell.icon}.png') 100%/100%` }}
+          />
+          <div className={styles.focusedSpellAspects}>
+            <ul>
+              <li>
+                <span style={{ color: 'green' }}>
+                  <b>Type: </b>
+                </span>
+                <span>{focusedSpell.type}</span>
+              </li>
+              <li>
+                <span style={{ color: 'green' }}>
+                  <b>Aspect: </b>
+                </span>
+                <span>{focusedSpell.aspect}</span>
+              </li>
+              <li>
+                <span style={{ color: 'green' }}>
+                  <b>Rank: </b>
+                </span>
+                <span style={{ fontSize: '0.6rem' }}>
+                  {Number(focusedSpell.rank) === 1 ? <b>★</b> : null}
+                  {Number(focusedSpell.rank) === 2 ? <b>★★</b> : null}
+                  {Number(focusedSpell.rank) === 3 ? <b>★★★</b> : null}
+                  {Number(focusedSpell.rank) === 4 ? <b>★★★★</b> : null}
+                  {Number(focusedSpell.rank) === 5 ? <b>★★★★★</b> : null}
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -49,14 +108,26 @@ const Spellbook = () => {
   const handleFocus = (event) => event.target.select()
 
   const [page, setPage] = useState(1)
+  const [focusedSpell, setFocusedSpell] = useState(null)
 
   const allSpells = useMemo(() => {
     const spellArray = []
     SPELLS.map((s) => {
-      const spell = { id: s.id, name: s.name, icon: s.icon, unlocks: s.unlocks, aquired: false }
+      const spell = {
+        id: s.id,
+        name: s.name,
+        icon: s.icon,
+        type: s.type,
+        aspect: s.aspect,
+        rank: s.rank,
+        unlocks: s.unlocks,
+        aquired: false,
+      }
       spellArray.push(spell)
       return null
     })
+    setFocusedSpell(spellArray[0])
+
     return spellArray
   }, [])
 
@@ -75,11 +146,18 @@ const Spellbook = () => {
           <span>0 / {allSpells.length} Spells Learned</span>
           <span>
             Share your progress:
-            <input onFocus={handleFocus} type="text" value="Hello World" />
+            <input onFocus={handleFocus} type="text" value="Hello World" readOnly />
           </span>
         </div>
         <div className={styles.spellbookClickable}>
-          <LeftPage page={page} setPage={setPage} pageSpells={pageSpells} allSpells={allSpells} />
+          <LeftPage
+            page={page}
+            setPage={setPage}
+            pageSpells={pageSpells}
+            allSpells={allSpells}
+            focusedSpell={focusedSpell}
+            setFocusedSpell={setFocusedSpell}
+          />
         </div>
       </div>
     </>

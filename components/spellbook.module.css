@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
-
 .spellbook {
   margin-top: 4rem;
   display: flex;
@@ -19,6 +17,15 @@
 .spellButton {
   border-radius: 5px;
   box-shadow: inset 0 0 10px #000000;
+  cursor: pointer;
+}
+
+.spellButton:hover {
+  box-shadow: inset 0 0 10px #ffffff;
+}
+
+.spellButton:active {
+  box-shadow: inset 0 0 10px #6d6d6d;
 }
 
 .spellbookClickable {
@@ -28,10 +35,23 @@
   background: url('/images/bluspellbook.png') center 50%/100% no-repeat;
 }
 
-.pageLeft {
-  padding: 5rem 0 6rem 5rem;
+.pages {
+  display: flex;
+}
+
+.pageLeft,
+.pageRight {
   width: 400px;
 }
+
+.pageLeft {
+  padding: 5rem 0 6rem 5rem;
+}
+
+.pageRight {
+  padding: 5rem 5rem 6rem 2rem;
+}
+
 .spell {
   display: flex;
   align-items: center;
@@ -59,7 +79,6 @@
   margin: 0 2px;
   cursor: pointer;
   font-size: 1rem;
-  font-family: 'Saira Condensed', sans-serif;
 }
 
 .pageNumberActive {
@@ -76,4 +95,30 @@
   min-width: 42px;
   height: 42px;
   background-color: rgb(28, 28, 28);
+}
+
+.focusedSpellData {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.focusedSpellData ul {
+  list-style: none;
+}
+
+.focusedSpellAspects {
+  width: 100%;
+}
+
+.focusedSpellAspects ul {
+  padding-left: 1rem;
+}
+
+.focusedSpellIcon {
+  min-width: 86px;
+  height: 86px;
+  border-radius: 0.5rem;
+  background-color: rgb(165, 165, 165);
+  box-shadow: inset 0 0 10px #000000;
 }
