@@ -6,7 +6,9 @@ const SPELLS = data.spell
 const SPELLSPERPAGE = 16
 
 function Spell({ id, icon, aquired, setFocusedSpell, allSpells }) {
-  return (
+  if (allSpells[id] === undefined) {
+    return <></>
+  } return (
     <div className={styles.spell}>
       <input type="checkbox" id={id} value={aquired} />
       <div
@@ -15,15 +17,15 @@ function Spell({ id, icon, aquired, setFocusedSpell, allSpells }) {
         tabIndex={id}
         aria-label={allSpells[id].name}
         onClick={() => {
-          setFocusedSpell(allSpells[id - 1])
-        }}
+            setFocusedSpell(allSpells[id - 1])
+          }}
         onKeyPress={() => {
-          setFocusedSpell(allSpells[id - 1])
-        }}
+            setFocusedSpell(allSpells[id - 1])
+          }}
         style={{ background: `url('../images/icons/${icon}.png')` }}
       />
     </div>
-  )
+    )
 }
 
 function LeftPage({ page, setPage, pageSpells, allSpells, focusedSpell, setFocusedSpell }) {
