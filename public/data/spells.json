@@ -4,624 +4,936 @@
       "id": 1,
       "name": "spellName",
       "icon": "spell_01",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 2,
       "name": "spellName",
       "icon": "spell_02",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 3,
       "name": "spellName",
       "icon": "spell_03",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 4,
       "name": "spellName",
       "icon": "spell_04",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 5,
       "name": "spellName",
       "icon": "spell_05",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 6,
       "name": "spellName",
       "icon": "spell_06",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 7,
       "name": "spellName",
       "icon": "spell_07",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 8,
       "name": "spellName",
       "icon": "spell_08",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 9,
       "name": "spellName",
       "icon": "spell_09",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 10,
       "name": "spellName",
       "icon": "spell_10",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 11,
       "name": "spellName",
       "icon": "spell_11",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 12,
       "name": "spellName",
       "icon": "spell_12",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 13,
       "name": "spellName",
       "icon": "spell_13",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 14,
       "name": "spellName",
       "icon": "spell_14",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 15,
       "name": "spellName",
       "icon": "spell_15",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 16,
       "name": "spellName",
       "icon": "spell_16",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 17,
       "name": "spellName",
       "icon": "spell_17",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 18,
       "name": "spellName",
       "icon": "spell_18",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 19,
       "name": "spellName",
       "icon": "spell_19",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 20,
       "name": "spellName",
       "icon": "spell_20",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 21,
       "name": "spellName",
       "icon": "spell_21",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 22,
       "name": "spellName",
       "icon": "spell_22",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 23,
       "name": "spellName",
       "icon": "spell_23",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 24,
       "name": "spellName",
       "icon": "spell_24",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 25,
       "name": "spellName",
       "icon": "spell_25",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 26,
       "name": "spellName",
       "icon": "spell_26",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 27,
       "name": "spellName",
       "icon": "spell_27",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 28,
       "name": "spellName",
       "icon": "spell_28",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 29,
       "name": "spellName",
       "icon": "spell_29",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 30,
       "name": "spellName",
       "icon": "spell_30",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 31,
       "name": "spellName",
       "icon": "spell_31",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 32,
       "name": "spellName",
       "icon": "spell_32",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 33,
       "name": "spellName",
       "icon": "spell_33",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 34,
       "name": "spellName",
       "icon": "spell_34",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 35,
       "name": "spellName",
       "icon": "spell_35",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 36,
       "name": "spellName",
       "icon": "spell_36",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 37,
       "name": "spellName",
       "icon": "spell_37",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 38,
       "name": "spellName",
       "icon": "spell_38",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 39,
       "name": "spellName",
       "icon": "spell_39",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 40,
       "name": "spellName",
       "icon": "spell_40",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 41,
       "name": "spellName",
       "icon": "spell_41",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 42,
       "name": "spellName",
       "icon": "spell_42",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 43,
       "name": "spellName",
       "icon": "spell_43",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 44,
       "name": "spellName",
       "icon": "spell_44",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 45,
       "name": "spellName",
       "icon": "spell_45",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 46,
       "name": "spellName",
       "icon": "spell_46",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 47,
       "name": "spellName",
       "icon": "spell_47",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 48,
       "name": "spellName",
       "icon": "spell_48",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 49,
       "name": "spellName",
       "icon": "spell_49",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 50,
       "name": "spellName",
       "icon": "spell_50",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 51,
       "name": "spellName",
       "icon": "spell_51",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 52,
       "name": "spellName",
       "icon": "spell_52",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 53,
       "name": "spellName",
       "icon": "spell_53",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 54,
       "name": "spellName",
       "icon": "spell_54",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 55,
       "name": "spellName",
       "icon": "spell_55",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 56,
       "name": "spellName",
       "icon": "spell_56",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 57,
       "name": "spellName",
       "icon": "spell_57",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 58,
       "name": "spellName",
       "icon": "spell_58",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 59,
       "name": "spellName",
       "icon": "spell_59",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 60,
       "name": "spellName",
       "icon": "spell_60",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 61,
       "name": "spellName",
       "icon": "spell_61",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 62,
       "name": "spellName",
       "icon": "spell_62",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 63,
       "name": "spellName",
       "icon": "spell_63",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 64,
       "name": "spellName",
       "icon": "spell_64",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 65,
       "name": "spellName",
       "icon": "spell_65",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 66,
       "name": "spellName",
       "icon": "spell_66",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 67,
       "name": "spellName",
       "icon": "spell_67",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 68,
       "name": "spellName",
       "icon": "spell_68",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 69,
       "name": "spellName",
       "icon": "spell_69",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 70,
       "name": "spellName",
       "icon": "spell_70",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 71,
       "name": "spellName",
       "icon": "spell_71",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 72,
       "name": "spellName",
       "icon": "spell_72",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 73,
       "name": "spellName",
       "icon": "spell_73",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 74,
       "name": "spellName",
       "icon": "spell_74",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 75,
       "name": "spellName",
       "icon": "spell_75",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 76,
       "name": "spellName",
       "icon": "spell_76",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 77,
       "name": "spellName",
       "icon": "spell_77",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 78,
       "name": "spellName",
       "icon": "spell_78",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 79,
       "name": "spellName",
       "icon": "spell_79",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 80,
       "name": "spellName",
       "icon": "spell_80",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 81,
       "name": "spellName",
       "icon": "spell_81",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 82,
       "name": "spellName",
       "icon": "spell_82",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 83,
       "name": "spellName",
       "icon": "spell_83",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 84,
       "name": "spellName",
       "icon": "spell_84",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 85,
       "name": "spellName",
       "icon": "spell_85",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 86,
       "name": "spellName",
       "icon": "spell_86",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 87,
       "name": "spellName",
       "icon": "spell_87",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 88,
       "name": "spellName",
       "icon": "spell_88",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 89,
       "name": "spellName",
       "icon": "spell_89",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 90,
       "name": "spellName",
       "icon": "spell_90",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 91,
       "name": "spellName",
       "icon": "spell_91",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 92,
       "name": "spellName",
       "icon": "spell_92",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 93,
       "name": "spellName",
       "icon": "spell_93",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 94,
       "name": "spellName",
       "icon": "spell_94",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 95,
       "name": "spellName",
       "icon": "spell_95",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 96,
       "name": "spellName",
       "icon": "spell_96",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 97,
       "name": "spellName",
       "icon": "spell_97",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 98,
       "name": "spellName",
       "icon": "spell_98",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 99,
       "name": "spellName",
       "icon": "spell_99",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 100,
       "name": "spellName",
       "icon": "spell_100",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 101,
       "name": "spellName",
       "icon": "spell_101",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 102,
       "name": "spellName",
       "icon": "spell_102",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 103,
       "name": "spellName",
       "icon": "spell_103",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     },
     {
       "id": 104,
       "name": "spellName",
       "icon": "spell_104",
+      "type": "null",
+      "aspect": "null",
+      "rank": "1",
       "unlocks": [{ "unlock": "" }]
     }
   ]
