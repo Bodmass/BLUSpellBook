@@ -3,10 +3,10 @@ const description = 'Final Fantasy XIV Shadowbringers Blue Mage Spellbook. Updat
 const url = 'https://azizarar.com/'
 const images = [
   {
-    url: 'https://ffxiv.azizarar.com/images/sss-image-01.jpg',
+    url: 'https://blu.azizarar.com/images/blu-image-01.jpg',
     width: 800,
     height: 600,
-    alt: 'SSS Image TEMP',
+    alt: 'BLU IMAGE',
   },
 ]
 const tags = [
