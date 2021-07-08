@@ -15,6 +15,9 @@ function Spell({ id, icon, setFocusedSpell, allSpells, spellCount, setSpellCount
 
   useEffect(() => {
     if (allSpells[id].aquired === 'true') setChecked(true)
+    if (id === 1) {
+      setChecked(true)
+    }
   })
 
   const handleChange = (event) => {
@@ -36,7 +39,7 @@ function Spell({ id, icon, setFocusedSpell, allSpells, spellCount, setSpellCount
 
   return (
     <div className={styles.spell}>
-      <Checkbox checked={checked} onChange={handleChange} style={{ padding: '0' }} />
+      <Checkbox checked={checked} onChange={handleChange} style={{ padding: '0' }} disabled={id === 1} />
       <div
         className={styles.spellButton}
         role="button"
@@ -128,6 +131,16 @@ function LeftPage({ page, setPage, pageSpells, allSpells, focusedSpell, setFocus
             </ul>
           </div>
         </div>
+        <div className={styles.spellLearn}>
+          <div className={styles.spellLearnTitle}>How to Learn</div>
+          <div className={styles.spellLearnList}>
+            <ul>
+              {focusedSpell.unlocks.map((e) => (
+                <li>{e}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -164,6 +177,10 @@ const Spellbook = () => {
         setAquired: (set) => {
           spell.aquired = set
         },
+      }
+
+      if (spell.id === 1) {
+        spell.aquired = 'true'
       }
 
       spellArray.push(spell)

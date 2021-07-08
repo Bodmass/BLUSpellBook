@@ -7,7 +7,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Learned by default"]
     },
     {
       "id": 2,
@@ -16,7 +16,12 @@
       "type": "Magic",
       "aspect": "Fire",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Gobmachine G-VI in Brayflox's Longstop (Hard)",
+        "Einhander in The Keeper of the Lake",
+        "Magitek Gunship in The Keeper of the Lake",
+        "Omega in Alphascape V3.0"
+      ]
     },
     {
       "id": 3,
@@ -25,7 +30,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ultros in The Dragon's Neck", "Leviathan in The Whorleater"]
     },
     {
       "id": 4,
@@ -34,7 +39,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Zu in Pharos Sirius", "Cornu in Outer La Noscea (A Rank)"]
     },
     {
       "id": 5,
@@ -43,7 +48,7 @@
       "type": "Physical",
       "aspect": "Piercing",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Magitek Vanguard H-2 in Northen Thanalan [x16, y15]"]
     },
     {
       "id": 6,
@@ -52,7 +57,11 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "ADS in The Binding Coil of Bahamut - Turn 1",
+        "ADS in The Binding Coil of Bahamut - Turn 2",
+        "Bestial Node in Masked Carnivale #15"
+      ]
     },
     {
       "id": 7,
@@ -61,7 +70,11 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Flame Sergeant Dalvag in Northen Thanalan (B Rank)",
+        "Baalzephon in The Lost City of Amdapor",
+        "Dantalion in The Tam-Tara Deepcroft (Hard)"
+      ]
     },
     {
       "id": 8,
@@ -70,7 +83,7 @@
       "type": "Physical",
       "aspect": "Piercing",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Killer Wespe in Middle La Noscea (x15, y15)", "Temple Bee in The Sunken Temple of Quarn"]
     },
     {
       "id": 9,
@@ -79,7 +92,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Siren in Pharos Sirius"]
     },
     {
       "id": 10,
@@ -88,7 +101,7 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Coincounter in The Aurum Vale", "Brontes in Central Thanalan (S Rank)"]
     },
     {
       "id": 11,
@@ -97,7 +110,11 @@
       "type": "Magic",
       "aspect": "Earth",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Basalt Golem in Outer La Noscea (x16, y16)",
+        "Sandstone Golem in Southern Thanalan (x22, y12)",
+        "Clay Golem in North Shroud (x19, y29)"
+      ]
     },
     {
       "id": 12,
@@ -106,7 +123,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Wild Boar in East Shroud (x18, y24)"]
     },
     {
       "id": 13,
@@ -115,7 +132,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 10 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 14,
@@ -124,7 +141,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Manor Sentry in Haukke Manor"]
     },
     {
       "id": 15,
@@ -133,7 +150,7 @@
       "type": "Physical",
       "aspect": "Slashing",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Tonberry King in The Wanderer's Palace"]
     },
     {
       "id": 16,
@@ -142,7 +159,7 @@
       "type": "Magic",
       "aspect": "Ice",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Tricker Imp in Central Shroud (x27, y24)"]
     },
     {
       "id": 17,
@@ -151,7 +168,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Cave Bat in Lower La Noscea (x27, y16)"]
     },
     {
       "id": 18,
@@ -160,7 +177,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Treant Sapling in North Shroud (x24, 28)"]
     },
     {
       "id": 19,
@@ -169,7 +186,7 @@
       "type": "Magic",
       "aspect": "Fire",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Goblin Fisher in Middle La Noscea (x23, y21)", "Goblin Gambler in Middle La Noscea (x23, y21)"]
     },
     {
       "id": 20,
@@ -178,7 +195,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 5 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 21,
@@ -187,7 +204,7 @@
       "type": "Magic",
       "aspect": "Fire",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Glide Bomb in Western Thanalan (x27, y16"]
     },
     {
       "id": 22,
@@ -196,7 +213,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 20 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 23,
@@ -205,7 +222,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Qiqirn Shellsweeper in Central Thanalan (x16, y19)"]
     },
     {
       "id": 24,
@@ -214,7 +231,7 @@
       "type": "Physical",
       "aspect": "Piercing",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Apkallu in Eastern La Noscea (x27, y35)"]
     },
     {
       "id": 25,
@@ -223,7 +240,11 @@
       "type": "Magic",
       "aspect": "Wind",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Typhon in The Dragon's Neck",
+        "Typhon in the Masked Carnivale #20",
+        "Typhon in the Masked Carnivale #27"
+      ]
     },
     {
       "id": 26,
@@ -232,7 +253,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ultros in The Dragon's Neck"]
     },
     {
       "id": 27,
@@ -241,7 +262,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Anantaboga in Amdapor Keep", "Bibliolater in The Great Gubal Library (Hard)"]
     },
     {
       "id": 28,
@@ -250,7 +271,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Stroper in Central Shroud (x12, y23)", "Morbol in Mor Dhona (x15, y14)"]
     },
     {
       "id": 29,
@@ -259,7 +280,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Cuca Fera in The Stone Vigil (Hard)", "Horde Armoed Dragon in The Steps of Faith"]
     },
     {
       "id": 30,
@@ -268,7 +289,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 10 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 31,
@@ -276,8 +297,8 @@
       "icon": "spell_31",
       "type": "Physical",
       "aspect": "Blunt",
-      "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "rank": "4",
+      "unlocks": ["Toxic Toad in Central Thanalan (x26, y19)", "Laughing Toad in Western Thanalan (x14, y6)"]
     },
     {
       "id": 32,
@@ -286,7 +307,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Giggling Giantoad in Western Thanalan (x15, y7)"]
     },
     {
       "id": 33,
@@ -295,7 +316,11 @@
       "type": "Magic",
       "aspect": "Ice",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Chimera in Cutter's Cry",
+        "Dhorme Chimera in A Relic Reborn: The Chimera",
+        "Azulmagia in the Masked Carnivale #25"
+      ]
     },
     {
       "id": 34,
@@ -304,7 +329,11 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Chimera in Cutter's Cry",
+        "Dhorme Chimera in A Relic Reborn: The Chimera",
+        "Azulmagia in the Masked Carnivale #25"
+      ]
     },
     {
       "id": 35,
@@ -313,7 +342,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Enkidu in Battle in the Big Keep"]
     },
     {
       "id": 36,
@@ -322,7 +351,7 @@
       "type": "Physical",
       "aspect": "Piercing",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Sabotender Vailaor in Southern Thanalan (x16, y15)"]
     },
     {
       "id": 37,
@@ -331,7 +360,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Kraken in Sastasha (Hard)"]
     },
     {
       "id": 38,
@@ -340,7 +369,7 @@
       "type": "Physical",
       "aspect": "Piercing/Fire",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Fruminoius Koheel Ja in The Wanderer's Palace (Hard)"]
     },
     {
       "id": 39,
@@ -349,7 +378,10 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "[Requires 10 stages cleared in the Masked Carnivale]",
+        "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"
+      ]
     },
     {
       "id": 40,
@@ -358,7 +390,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Karlabos in Sastasha (Hard)", "Crag Claw in The Peaks (x25, y9)"]
     },
     {
       "id": 41,
@@ -367,7 +399,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Galvanth the Dominator in The Tam-tara Deepcroft"]
     },
     {
       "id": 42,
@@ -376,7 +408,10 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "[Requires 20 stages cleared in the Masked Carnivale]",
+        "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"
+      ]
     },
     {
       "id": 43,
@@ -385,7 +420,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Lentic Mudpuppy in Mor Dhona (x13, y10)"]
     },
     {
       "id": 44,
@@ -394,7 +429,7 @@
       "type": "Magic",
       "aspect": "Wind",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Garuda in The Howling Eye (Extreme)"]
     },
     {
       "id": 45,
@@ -403,7 +438,7 @@
       "type": "Magic",
       "aspect": "Fire",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ifrit in The Bowl of Embers"]
     },
     {
       "id": 46,
@@ -412,7 +447,7 @@
       "type": "Physical",
       "aspect": "Blunt/Earth",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Titan in The Navel (Hard)"]
     },
     {
       "id": 47,
@@ -421,7 +456,7 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ramuh in The Striking Tree (Hard)"]
     },
     {
       "id": 48,
@@ -430,7 +465,7 @@
       "type": "Magic",
       "aspect": "Ice",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Shiva in Akh Afan Amphitheatre (Extreme)"]
     },
     {
       "id": 49,
@@ -439,7 +474,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Leviathan in The Whorleater (Hard)"]
     },
     {
       "id": 50,
@@ -448,7 +483,7 @@
       "type": "Magic",
       "aspect": "Wind",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Griffin in Sea of Clouds (x36, y9)", "Opinicus in The Dusk Vigil"]
     },
     {
       "id": 51,
@@ -457,7 +492,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Living Liquid in Alexander - The Arm of the Father", "Shikigami in the Masked Carnivale #29"]
     },
     {
       "id": 52,
@@ -466,7 +501,7 @@
       "type": "Magic",
       "aspect": "Ice",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Slate Yeti in Coerthas Western Highlands (x22, y27)"]
     },
     {
       "id": 53,
@@ -475,7 +510,7 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Conodont in Sea of Clouds (x26, y33)"]
     },
     {
       "id": 54,
@@ -484,7 +519,7 @@
       "type": "Physical",
       "aspect": "Slashing",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Faust in Alexander - The Fist of the Father", "Jagd Doll in Alexander - The Cuff of the Father"]
     },
     {
       "id": 55,
@@ -493,7 +528,7 @@
       "type": "Physical",
       "aspect": "Piercing",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ash in Haukke Manor (Hard)", "Biblioklept in The Great Gubal Library"]
     },
     {
       "id": 56,
@@ -502,7 +537,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Paissa in Sea of Clouds (x24, y33)"]
     },
     {
       "id": 57,
@@ -511,7 +546,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Empuse in Azys Lla (x30, y12)"]
     },
     {
       "id": 58,
@@ -520,7 +555,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Furryfoot Kupli Kipp in Thornmarch (Hard)"]
     },
     {
       "id": 59,
@@ -529,7 +564,10 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "Alexandrian Hider in Alexander - The Breath of the Creator",
+        "Slipkinx Steeljoints in The Dravanian Hinterlands (A Rank)"
+      ]
     },
     {
       "id": 60,
@@ -538,7 +576,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Apanda in The Great Gubal Library (Hard)", "Epilogi in the Masked Carnivale #24"]
     },
     {
       "id": 61,
@@ -547,7 +585,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Queen Hawk in Saint Mocianne's Arboretum"]
     },
     {
       "id": 62,
@@ -556,7 +594,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Poroggo in The Dravanian Hinterlands (x12, y35)"]
     },
     {
       "id": 63,
@@ -565,7 +603,7 @@
       "type": "Magic",
       "aspect": "Wind",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Zu in Pharos Sirius", "Anzu in The Sea of Clouds (x21, y6)"]
     },
     {
       "id": 64,
@@ -574,7 +612,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Dhalmel in Sea of Clouds (x16, 30)", "Jhammel in The Peak (x26, y30)"]
     },
     {
       "id": 65,
@@ -583,7 +621,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["White Knight in The Vault"]
     },
     {
       "id": 66,
@@ -592,7 +630,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Black Knight in The Vault"]
     },
     {
       "id": 67,
@@ -601,7 +639,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires breaking the tether by standing far away]", "Page 64 in The Great Gubal Library"]
     },
     {
       "id": 68,
@@ -610,7 +648,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Armored Weapon in Baelsar's Wall", "Doman Armored Weapon in Doma Castle"]
     },
     {
       "id": 69,
@@ -619,7 +657,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["The Manipulator in Alexander - The Burden of the Father"]
     },
     {
       "id": 70,
@@ -628,7 +666,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Sabotender Guardia in The Sunken Temple of Qarn (Hard)"]
     },
     {
       "id": 71,
@@ -637,7 +675,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 50 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 72,
@@ -646,7 +684,10 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "[Requires 30 stages cleared in the Masked Carnivale",
+        "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"
+      ]
     },
     {
       "id": 73,
@@ -655,7 +696,11 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": [
+        "[Abalathian Wamoura requires 2 other nearby enemies]",
+        "Abalathian Wamoura in Sea of Clouds (x9, y16)",
+        "Wamoura in The Lost City of Amdapor"
+      ]
     },
     {
       "id": 74,
@@ -664,7 +709,7 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Cloud Wyvern in The Churning Mists (x23, y29)"]
     },
     {
       "id": 75,
@@ -673,7 +718,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Caduceus in The Binding Coils of Bahamut - Turn 1", "Decaying Gourmand in The Lost City of Amdapor"]
     },
     {
       "id": 76,
@@ -682,7 +727,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Mechanoscribe in The Great Gubal Library (Hard)", "Arena Scribe in the Masked Carnivale #24"]
     },
     {
       "id": 77,
@@ -691,7 +736,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ghrah Luminary add Corruption in Pharos Sirius (Hard)"]
     },
     {
       "id": 78,
@@ -700,7 +745,7 @@
       "type": "Magic",
       "aspect": "Earth",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ravana in Thok Ast Thok"]
     },
     {
       "id": 79,
@@ -709,7 +754,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Sophia in Containment Bay P1T6"]
     },
     {
       "id": 80,
@@ -718,7 +763,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Brute Justice in Alexander - The Burden of the Son"]
     },
     {
       "id": 81,
@@ -727,7 +772,7 @@
       "type": "Physical",
       "aspect": "Piercing",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ebisu Catfish in Yanxia (x26, y6)", "Gyorai Quickstrike in Yanxia (B Rank)"]
     },
     {
       "id": 82,
@@ -736,7 +781,7 @@
       "type": "Magic",
       "aspect": "Lightning",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ebisu Catfish in Yanxia (x26, y6)", "Gyorai Quickstrike in Yanxia (B Rank)"]
     },
     {
       "id": 83,
@@ -745,7 +790,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Dojun-maru adds in Kugane Castle"]
     },
     {
       "id": 84,
@@ -754,7 +799,7 @@
       "type": "Magic",
       "aspect": "Ice",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Mist Dragon in The Burn"]
     },
     {
       "id": 85,
@@ -763,7 +808,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Lakshmi in Emanation"]
     },
     {
       "id": 86,
@@ -772,7 +817,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Phantom Train in Sigmascape V1.0"]
     },
     {
       "id": 87,
@@ -781,7 +826,7 @@
       "type": "Magic",
       "aspect": "Earth",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Tokkapchi in Saint Macianne's Arboretum (Hard)"]
     },
     {
       "id": 88,
@@ -790,7 +835,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires reaching level 70]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 89,
@@ -799,7 +844,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Genbu in Hells' Lid"]
     },
     {
       "id": 90,
@@ -808,7 +853,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Ivon Coeurlfist in The Templf Of The Fist"]
     },
     {
       "id": 91,
@@ -817,7 +862,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Master Coeurl in Upper La Noscea (x8, y21)", "Coeurl Sruti in Temple of the Fist"]
     },
     {
       "id": 92,
@@ -826,7 +871,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Kongamato in The Peaks (x11, y25)"]
     },
     {
       "id": 93,
@@ -835,7 +880,7 @@
       "type": "Magic",
       "aspect": "Ice",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Alte Roite in Deltascape V1.0"]
     },
     {
       "id": 94,
@@ -844,7 +889,7 @@
       "type": "Magic",
       "aspect": "Fire",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Omega in Alphascape V3.0"]
     },
     {
       "id": 95,
@@ -853,7 +898,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 100 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 96,
@@ -862,7 +907,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Salt Dhruva in The Lochs (x22, y22)", "Luminare in The Lochs (A Rank)"]
     },
     {
       "id": 97,
@@ -871,7 +916,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Kelpie in The Drowned City of Skalla"]
     },
     {
       "id": 98,
@@ -880,7 +925,7 @@
       "type": "Magic",
       "aspect": "Water",
       "rank": "2",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Sai Taisui in The Swallow's Compass"]
     },
     {
       "id": 99,
@@ -889,7 +934,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "1",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Courser Chocobo in The Dravanian Forelands (x34, y28)"]
     },
     {
       "id": 100,
@@ -898,7 +943,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "3",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["[Requires 100 Spells learned to purchase]", "Wayward Gaheel Ja in Ul'dah - Steps of Thal (x12, y13)"]
     },
     {
       "id": 101,
@@ -907,7 +952,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "4",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Omega in Alphascale V3.0"]
     },
     {
       "id": 102,
@@ -916,7 +961,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Qitian Dasheng in The Swallow's Compass"]
     },
     {
       "id": 103,
@@ -925,7 +970,7 @@
       "type": "Physical",
       "aspect": "Blunt",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Suzaku in Hells' Kier"]
     },
     {
       "id": 104,
@@ -934,7 +979,7 @@
       "type": "Magic",
       "aspect": "None",
       "rank": "5",
-      "unlocks": [{ "unlock": "" }]
+      "unlocks": ["Tsukuyomi in Castrum Fluminis"]
     }
   ]
 }
