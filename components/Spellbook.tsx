@@ -1,34 +1,60 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import Checkbox from '@material-ui/core/Checkbox'
 import styles from './spellbook.module.css'
 import data from '../public/data/spells.json'
 
 const SPELLS = data.spell
 const SPELLSPERPAGE = 16
 
-function Spell({ id, icon, aquired, setFocusedSpell, allSpells }) {
+function Spell({ id, icon, setFocusedSpell, allSpells, spellCount, setSpellCount }) {
   if (allSpells[id] === undefined) {
     return <></>
-  } return (
+  }
+
+  const [checked, setChecked] = useState(false)
+
+  useEffect(() => {
+    if (allSpells[id].aquired === 'true') setChecked(true)
+  })
+
+  const handleChange = (event) => {
+    setChecked(event.target.checked)
+    if (event.target.checked) {
+      allSpells[id].setAquired('true')
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(id + 1, 'true')
+      }
+      setSpellCount(spellCount + 1)
+    } else {
+      allSpells[id].setAquired('false')
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(id + 1, 'false')
+      }
+      setSpellCount(spellCount - 1)
+    }
+  }
+
+  return (
     <div className={styles.spell}>
-      <input type="checkbox" id={id} value={aquired} />
+      <Checkbox checked={checked} onChange={handleChange} style={{ padding: '0' }} />
       <div
         className={styles.spellButton}
         role="button"
         tabIndex={id}
         aria-label={allSpells[id].name}
         onClick={() => {
-            setFocusedSpell(allSpells[id - 1])
-          }}
+          setFocusedSpell(allSpells[id - 1])
+        }}
         onKeyPress={() => {
-            setFocusedSpell(allSpells[id - 1])
-          }}
+          setFocusedSpell(allSpells[id - 1])
+        }}
         style={{ background: `url('../images/icons/${icon}.png')` }}
       />
     </div>
-    )
+  )
 }
 
-function LeftPage({ page, setPage, pageSpells, allSpells, focusedSpell, setFocusedSpell }) {
+function LeftPage({ page, setPage, pageSpells, allSpells, focusedSpell, setFocusedSpell, spellCount, setSpellCount }) {
   const maxPage = Math.ceil(allSpells.length / SPELLSPERPAGE)
 
   return (
@@ -58,9 +84,10 @@ function LeftPage({ page, setPage, pageSpells, allSpells, focusedSpell, setFocus
               key={e.id}
               id={e.id}
               icon={e.icon}
-              aquired={false}
               setFocusedSpell={setFocusedSpell}
               allSpells={allSpells}
+              spellCount={spellCount}
+              setSpellCount={setSpellCount}
             />
           ))}
         </div>
@@ -111,10 +138,20 @@ const Spellbook = () => {
 
   const [page, setPage] = useState(1)
   const [focusedSpell, setFocusedSpell] = useState(null)
+  const [spellCount, setSpellCount] = useState(0)
 
   const allSpells = useMemo(() => {
     const spellArray = []
     SPELLS.map((s) => {
+      let aquiredBool = 'false'
+
+      if (typeof window !== 'undefined') {
+        if (!localStorage.getItem(s.id.toString())) localStorage.setItem(s.id.toString(), 'false')
+        if (localStorage.getItem(s.id.toString()) === 'true') {
+          aquiredBool = 'true'
+        }
+      }
+
       const spell = {
         id: s.id,
         name: s.name,
@@ -123,8 +160,12 @@ const Spellbook = () => {
         aspect: s.aspect,
         rank: s.rank,
         unlocks: s.unlocks,
-        aquired: false,
+        aquired: aquiredBool,
+        setAquired: (set) => {
+          spell.aquired = set
+        },
       }
+
       spellArray.push(spell)
       return null
     })
@@ -141,11 +182,23 @@ const Spellbook = () => {
     return visibleSpells
   }, [page])
 
+  useMemo(() => {
+    let spellsAquired = 0
+    allSpells.map((e) => {
+      if (e.aquired === 'true') spellsAquired += 1
+      return null
+    })
+
+    setSpellCount(spellsAquired)
+  }, [])
+
   return (
     <>
       <div className={styles.spellbook}>
         <div className={styles.spellbookHeader}>
-          <span>0 / {allSpells.length} Spells Learned</span>
+          <span>
+            {spellCount} / {allSpells.length} Spells Learned
+          </span>
           <span>
             Share your progress:
             <input onFocus={handleFocus} type="text" value="Hello World" readOnly />
@@ -159,6 +212,8 @@ const Spellbook = () => {
             allSpells={allSpells}
             focusedSpell={focusedSpell}
             setFocusedSpell={setFocusedSpell}
+            spellCount={spellCount}
+            setSpellCount={setSpellCount}
           />
         </div>
       </div>
