@@ -1,0 +1,151 @@
+.spellbook {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spellbookHeader {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.spellButton {
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px #000000;
+  cursor: pointer;
+}
+
+.spellButton:hover {
+  box-shadow: inset 0 0 10px #ffffff;
+}
+
+.spellButton:active {
+  box-shadow: inset 0 0 10px #6d6d6d;
+}
+
+.spellbookClickable {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  background: url('/images/bluspellbook.png') center 50%/100% no-repeat;
+}
+
+.pages {
+  display: flex;
+}
+
+.pageLeft,
+.pageRight {
+  width: 400px;
+}
+
+.pageLeft {
+  padding: 5rem 0 6rem 5rem;
+}
+
+.pageRight {
+  padding: 5rem 5rem 6rem 2rem;
+}
+
+.spell {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  padding: 0.9rem 0;
+}
+
+.spellList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pageNumbers {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.pageNumber,
+.pageNumberActive {
+  background: none;
+  color: white;
+  border-radius: 8px;
+  width: 2rem;
+  margin: 0 2px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.pageNumberActive {
+  border: 1px solid #5d5d00;
+  box-shadow: inset 0 0 5px #f2ff02;
+}
+
+.pageNumber:hover {
+  border: 1px solid #414141;
+  box-shadow: inset 0 0 10px #cdcdcd;
+}
+
+.spellButton {
+  min-width: 42px;
+  height: 42px;
+  background-color: rgb(28, 28, 28);
+}
+
+.focusedSpellData {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.focusedSpellData ul {
+  list-style: none;
+}
+
+.focusedSpellAspects {
+  width: 100%;
+}
+
+.focusedSpellAspects ul {
+  padding-left: 1rem;
+}
+
+.focusedSpellIcon {
+  min-width: 86px;
+  height: 86px;
+  border-radius: 0.5rem;
+  background-color: rgb(165, 165, 165);
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.spellLearn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.spellLearnTitle {
+  width: 100%;
+  background: linear-gradient(to left, #00000000, #00000056, #0e0e0ebd);
+  margin-bottom: 0.25rem;
+}
+
+.spellLearnList {
+  width: 100%;
+  background-color: rgba(21, 21, 21, 0.708);
+  border: 1px solid #574324;
+  border-radius: 0.25rem;
+}
+
+.spellLearnList ul {
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  margin: 0;
+  font-size: 0.75rem;
+  list-style-type: none;
+}
