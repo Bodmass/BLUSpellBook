@@ -122,3 +122,30 @@
   background-color: rgb(165, 165, 165);
   box-shadow: inset 0 0 10px #000000;
 }
+
+.spellLearn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.spellLearnTitle {
+  width: 100%;
+  background: linear-gradient(to left, #00000000, #00000056, #0e0e0ebd);
+  margin-bottom: 0.25rem;
+}
+
+.spellLearnList {
+  width: 100%;
+  background-color: rgba(21, 21, 21, 0.708);
+  border: 1px solid #574324;
+  border-radius: 0.25rem;
+}
+
+.spellLearnList ul {
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  margin: 0;
+  font-size: 0.75rem;
+  list-style-type: none;
+}
