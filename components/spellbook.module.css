@@ -149,3 +149,87 @@
   font-size: 0.75rem;
   list-style-type: none;
 }
+
+.mobileSpell {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .spellbookHeader {
+    padding-left: 1rem;
+    flex-direction: column;
+  }
+
+  .spellbookClickable {
+    width: 100vw;
+    background: none;
+  }
+
+  .pageLeft {
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .spellList {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8rem;
+  }
+
+  .pageRight {
+    display: none;
+  }
+
+  .spell {
+    background: #31313178;
+    margin: 0.2rem 0;
+    width: 100%;
+    border-radius: 1rem;
+    height: 8rem;
+    max-height: 10rem;
+  }
+
+  .mobileSpellDU {
+    display: flex;
+  }
+
+  .mobileSpell {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .mobileName {
+    position: absolute;
+    left: 2rem;
+  }
+
+  .mobileSpellData,
+  .mobileUnlocks {
+    display: flex;
+  }
+
+  .mobileSpellData ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+    width: 8rem;
+    padding-top: 1rem;
+  }
+
+  .mobileUnlocks {
+    overflow-y: scroll;
+    height: 7.5rem;
+    background: #414141;
+    margin-right: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .mobileUnlocks ul {
+    padding: 0 0 0 1rem;
+    list-style-type: none;
+  }
+}

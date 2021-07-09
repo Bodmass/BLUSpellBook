@@ -53,6 +53,46 @@ function Spell({ id, icon, setFocusedSpell, allSpells, spellCount, setSpellCount
         }}
         style={{ background: `url('../images/icons/${icon}.png')` }}
       />
+      <div className={styles.mobileSpell}>
+        <div className={styles.mobileName}>{allSpells[id - 1].name}</div>
+        <div className={styles.mobileSpellDU}>
+          <div className={styles.mobileSpellData}>
+            <ul>
+              <li>
+                <span style={{ color: 'green' }}>
+                  <b>Type: </b>
+                </span>
+                <span>{allSpells[id - 1].type}</span>
+              </li>
+              <li>
+                <span style={{ color: 'green' }}>
+                  <b>Aspect: </b>
+                </span>
+                <span>{allSpells[id - 1].aspect}</span>
+              </li>
+              <li>
+                <span style={{ color: 'green' }}>
+                  <b>Rank: </b>
+                </span>
+                <span style={{ fontSize: '0.6rem' }}>
+                  {Number(allSpells[id - 1].rank) === 1 ? <b>★</b> : null}
+                  {Number(allSpells[id - 1].rank) === 2 ? <b>★★</b> : null}
+                  {Number(allSpells[id - 1].rank) === 3 ? <b>★★★</b> : null}
+                  {Number(allSpells[id - 1].rank) === 4 ? <b>★★★★</b> : null}
+                  {Number(allSpells[id - 1].rank) === 5 ? <b>★★★★★</b> : null}
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.mobileUnlocks}>
+            <ul>
+              {allSpells[id - 1].unlocks.map((e) => (
+                <li>{e}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
