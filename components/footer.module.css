@@ -18,5 +18,7 @@
     background: black;
     height: 6rem;
     border-top: 1px solid #202020;
+    padding: 0 10vw;
+    text-align: center;
   }
 }
