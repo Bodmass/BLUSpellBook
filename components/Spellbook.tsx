@@ -39,7 +39,12 @@ function Spell({ id, icon, setFocusedSpell, allSpells, spellCount, setSpellCount
 
   return (
     <div className={styles.spell}>
-      <Checkbox checked={checked} onChange={handleChange} style={{ padding: '0' }} disabled={id === 1} />
+      <Checkbox
+        checked={checked}
+        onChange={handleChange}
+        style={{ padding: '0', color: '#2e84ff' }}
+        disabled={id === 1}
+      />
       <div
         className={styles.spellButton}
         role="button"
