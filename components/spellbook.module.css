@@ -149,3 +149,92 @@
   font-size: 0.75rem;
   list-style-type: none;
 }
+
+.mobileSpell {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .spellbookHeader {
+    padding-left: 1rem;
+    flex-direction: column;
+  }
+
+  .spellbookClickable {
+    width: 100vw;
+    background: none;
+  }
+
+  .pageLeft {
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .spellList {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8rem;
+  }
+
+  .pageRight {
+    display: none;
+  }
+
+  .spell {
+    background: #31313178;
+    margin: 0.2rem 0;
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .mobileSpellDU {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobileSpell {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .mobileName {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobileSpellData,
+  .mobileUnlocks {
+    display: flex;
+  }
+
+  .mobileSpellData {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .mobileSpellData ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+    width: 8rem;
+  }
+
+  .mobileUnlocks {
+    overflow-y: scroll;
+    height: 100%;
+    background: #414141;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .mobileUnlocks ul {
+    padding: 0 0 0 1rem;
+    list-style-type: none;
+  }
+}
